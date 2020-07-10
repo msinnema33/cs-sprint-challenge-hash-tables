@@ -11,7 +11,7 @@ def has_negatives(a):
         if store.get(abs(num)): # .get method returns the value for the given key
             res.append(abs(num)) # if so add to results list
         else:
-            # if no val is found add num (the value) to the store
+            # if val is not found add num (the value) to the store
             store[abs(num)] = num
 
     return res
