@@ -1,7 +1,9 @@
 # Your code here
+## build a dictionary of files
+## build a dictionary of queries
+##file contains querey then appand to results
 
-
-
+result = []
 def finder(files, queries):
     """
     YOUR CODE HERE
