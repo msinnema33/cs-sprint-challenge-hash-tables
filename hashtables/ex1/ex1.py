@@ -4,7 +4,7 @@ def get_indices_of_item_weights(weights, length, limit):
     """
     weight = {}
     dupe_check = False # in order to pass test #2
-    dupes = {} # we need to account for duplicat weights ie: [10,10]
+    dupes = {} # we need to account for duplicat weights ie: [10,10] This is an edge case!!!!!
     #loop through weights and store them in the dict
     for i in range(0, length):
         current = weights[i]
